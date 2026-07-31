@@ -5,7 +5,7 @@ using HarmonyLib;
 namespace ArcLightningRework;
 
 [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
-[MycoMod(null)]
+[MycoMod(null, ModFlags.IsSandbox)]
 public class ArcLightningReworkPlugin : BaseUnityPlugin
 {
     public const string PluginGUID = "sparroh.arclightningrework";
